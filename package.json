@@ -1,0 +1,41 @@
+{
+  "name": "tequilas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^9.4.0",
+    "concurrently": "^4.1.0",
+    "google-maps-react": "^2.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-responsive-carousel": "^3.1.43",
+    "react-scripts": "2.1.1",
+    "react-sticky": "^6.0.3",
+    "react-sticky-header": "^0.2.0"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"npm:styles:watch\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "styles:watch": "stylus -w ./src/css/style.styl "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3",
+    "react-router-dom": "^4.3.1",
+    "react-transition-group": "^2.5.0",
+    "stylus": "^0.54.5"
+  }
+}
